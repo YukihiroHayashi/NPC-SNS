@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.disp-left {
+    width: 20%;
+}
+
+.disp-center {
+    width: 50%;
+}
+
+.disp-right {
+    width: 30%;
+}
