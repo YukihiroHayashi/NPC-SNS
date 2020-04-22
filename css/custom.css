@@ -19,3 +19,8 @@
 .disp-right {
     width: 30%;
 }
+
+.tweet-button {
+    display: flex;
+    justify-content: flex-end;
+}
