@@ -130,19 +130,37 @@
         </div>
         <div class="disp-right">
             <div class="ui segment disp-height">
-                <div class="six wide column">
-                    <div fallbackElement="[object Object]" class="ui search">
-                        <div class="ui icon input">
-                            <input type="text" value="" tabindex="0" class="prompt" autocomplete="off" />
-                            <i aria-hidden="true" class="search icon"></i>
-                        </div>
-                        <div class="results transition">
-                            <div class="message empty">
-                                <div class="header">No results found.</div>
-                            </div>
-                        </div>
+                <div class="ui search">
+                    <div class="ui icon input">
+                        <input class="prompt" type="text" placeholder="Tags search...">
+                        <i class="search icon"></i>
                     </div>
+                    <div class="results"></div>
                 </div>
+                <table class="ui blue table">
+                    <thead>
+                        <tr>
+                            <th>Recommended trends</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>VS Code <sup class="trend">100tweet</sup> </td>
+                        </tr>
+                        <tr>
+                            <td>Java <sup class="trend">50tweet</sup> </td>
+                        </tr>
+                        <tr>
+                            <td>Spring Boot <sup class="trend">40tweet</sup> </td>
+                        </tr>
+                        <tr>
+                            <td>React <sup class="trend">20tweet</sup> </td>
+                        </tr>
+                        <tr>
+                            <td>.Net Core <sup class="trend">10tweet</sup> </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
