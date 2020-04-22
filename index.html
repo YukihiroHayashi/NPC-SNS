@@ -28,7 +28,7 @@
     </div>
     <div class="frame">
         <div class="disp-left">
-            <div class="ui segment">
+            <div class="ui segment disp-height">
                 <div class="ui vertical menu">
                     <a class="item">Home</a>
                     <a class="item">
@@ -36,6 +36,7 @@
                         Notifications
                     </a>
                     <a class="item">Profile</a>
+                    <a class="item">Draft</a>
                 </div>
                 <button class="ui blue inverted button">
                     <i aria-hidden="true" class="twitter icon"></i>
@@ -44,7 +45,7 @@
             </div>
         </div>
         <div class="disp-center">
-            <div class="ui segment">
+            <div class="ui segment disp-height">
                 <div class="ui form">
                     <div class="field">
                         <label for="form-textarea-control-opinion">Tweet</label>
@@ -90,8 +91,20 @@
             </div>
         </div>
         <div class="disp-right">
-            <div class="ui segment">
-                <p>Search</p>
+            <div class="ui segment disp-height">
+                <div class="six wide column">
+                    <div fallbackElement="[object Object]" class="ui search">
+                        <div class="ui icon input">
+                            <input type="text" value="" tabindex="0" class="prompt" autocomplete="off" />
+                            <i aria-hidden="true" class="search icon"></i>
+                        </div>
+                        <div class="results transition">
+                            <div class="message empty">
+                                <div class="header">No results found.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
